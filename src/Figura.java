@@ -1,7 +1,9 @@
+import java.util.Enumeration;
+import java.util.Vector;
+
 public class Figura {
     public void dibujar(){}; }
 public class Cuadrado extends Figura{}
-public class Circulo extends Figura{}
 
 public class Figuras {
     Vector<Cuadrado> cuadrados=new Vector<Cuadrado>();
